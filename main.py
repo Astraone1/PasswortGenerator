@@ -19,7 +19,9 @@ label.pack()
 button = tk.Button(root, text="Passwort generieren", command=generate_passwort)
 button.pack()
 
-########################
+#  Button hinzugefügt
+new_button = tk.Button(root, text="New Passwort")
+new_button.pack()
 
 
 
